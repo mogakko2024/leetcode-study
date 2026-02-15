@@ -8,7 +8,7 @@ class Solution {
     }
 
     private fun dfs(node: TreeNode?, level: Int, result: MutableList<MutableList<Int>>) {
-        if (node == null) return
+        if (node == null) return 
         
         if (level == result.size) {
             result.add(mutableListOf())
